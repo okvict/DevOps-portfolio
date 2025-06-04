@@ -13,17 +13,18 @@
 
 ### 🚀 Cluster K3s dengan Docker
 - **Deskripsi**: Membangun dan mengelola cluster K3s (lightweight Kubernetes) menggunakan Docker sebagai container runtime.
-- **Tools**: K3s, Docker, Helm, Traefik, kubectl.
-- **Aplikasi**:
+- **Tools**: K3s, Docker, kubectl.
+- **Aplikasi yang di Deploy**:
   - **WordPress** – CMS untuk mendukung produktifitas internal rumah sakit.
   - **osTicket** – Sistem tiket layanan untuk mendukung teknis helpdesk di internal rumah sakit.
+  - **GLPI** - Sistem monitoring Asset perangkat keras.
 - **Monitoring**:
-  - **Grafana + Prometheus** – Untuk memonitor pods dan resource di dalam cluster.
+  - **Grafana + Prometheus & node Exporter ** – Untuk memonitor pods dan resource di dalam cluster.
 
 📈 **Hasil**:
-- Otomatisasi deployment aplikasi.
-- Dashboard monitoring real-time.
-- Infrastruktur ringan dan mudah di-maintain.
+- Deployment beberapa aplikasi opensource di worker node.
+- Dashboard monitoring pods.
+- Infrastruktur ringan dan mudah di-maintain dengan YAML Manifest.
 
 📂 GitHub: [https://github.com/okvict](https://github.com/okvict)
 
@@ -33,8 +34,8 @@
 
 - Docker, K3s (Lightweight Kubernetes)
 - Prometheus, Grafana, Node Exporter (Monitoring Tools)
-- Linux System Administration
-- Helm, Traefik
+- Linux System Administration (Ubuntu)
+- Helm
 - Git & GitHub
 
 ---
